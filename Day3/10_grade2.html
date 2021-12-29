@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        'use strict';
+            const name = prompt('이름을 입력하세요');
+            const num1 = Number(prompt('국어점수를 입력하세요'));
+            const num2 = Number(prompt('수학점수를 입력하세요'));
+            const num3 = Number(prompt('영어점수를 입력하세요'));
+
+            const avg = (num1 + num2 + num3)/3;
+            console.log(`${name}님의 성적표`);
+            console.log(`국어점수 : ${num1}`);
+            console.log(`수학점수 : ${num2}`);
+            console.log(`영어점수 : ${num3}`);
+            console.log(`총점 : ${num1 + num2 + num3}`);
+            console.log(`평균 : ${(num1 + num2 + num3)/3}`);
+
+            switch(parseInt(avg/10))
+            {
+                case 10:
+                case 9:
+                console.log('A학점');
+                break;
+                case 8:
+                console.log('B학점');
+                break;
+                case 7:
+                console.log('C학점');
+                break;
+                case 6:
+                console.log('D학점');
+                break;
+                default:
+                console.log('F학점');
+                break;
+                
+            }
+    </script>
+</body>
+</html>

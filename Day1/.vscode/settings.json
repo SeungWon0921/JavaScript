@@ -1,0 +1,23 @@
+{
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "editor.wordWrap": "on",
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "launch": {
+        
+
+        "configurations": [],
+        "compounds": []
+    },
+    "editor.tokenColorCustomizations": {
+
+        "comments": "#ffc2c2"
+
+    },
+    "workbench.colorCustomizations": {
+        // "editor.lineHighlightBackground": "#2d9b33",  //선택된 라인 전체의 백그라운드 색상
+        "editor.selectionBackground": "#a17b80",      //선택된 영역만의 배경 색상 
+        "editor.wordHighlightBackground": "#ffffff",  //선택된 영역만의 글자 색상
+        "editorCursor.foreground": "#bb8f8f",         //선택된 영역에서의 커서 색상
+    
+}

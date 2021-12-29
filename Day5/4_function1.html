@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>함수 - 1</title>
+    <script src="./js/function1.js"></script>
+    <script>
+        'use strict';
+        function getPresent(){
+            console.log('🎁');
+        }
+
+        function setJumsu(jumsu){
+            console.log(`전달받은 점수는 ${jumsu} 입니다`);
+
+        }
+
+        function getTotal(start, end){
+            let sum = 0;
+            for(let i= start; i<=end; i++){
+                sum += i;
+            }
+            console.log(` ${start}부터 ${end}까지의 총합은 ${sum}입니다 `);
+        }
+        getPresent();
+
+        setJumsu(90);
+
+        getTotal(1, 10);
+        
+        setNumbers(10, 20, 30, 40, 50, 60, 70);
+        
+        setMath(60, 70, 100, 80, 90);
+
+        let donut = getDonut();
+        console.log(donut);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

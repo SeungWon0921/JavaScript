@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>변수의 범위</h2>
+    <script>
+        'use strict';
+        var num1 =10;
+
+        function func1(){
+            console.log(num1);
+            num2 = 20;
+        }
+        func1();
+        console.log(num1);
+
+        var num2 = 30;
+    </script>
+</body>
+</html>

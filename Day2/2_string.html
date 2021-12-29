@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문자열형</title>
+</head>
+<body>
+    <h2>문자열형</h2>
+    <script>
+        const str1 = "여러분 안녕하세요?";
+        console.log(str1);
+        const str2 = '여러분 안녕하세요?';
+        console.log(str2);
+        const str3 = `여러분 안녕하세요?`;
+        console.log(str3);
+
+        const str4 = '김사과 : "안녕하세요?"';
+        console.log(str4);
+        const str5 = "김사과 : '안녕하세요?'";
+        console.log(str5);
+        const str6 = "김사과 : \"안녕하세요?\"";
+        console.log(str6);
+
+        const num1 = 10;
+        const str7 ="원하는 숫자는 :";
+
+        console.log(str7 + num1);
+        const str8 = "5";
+        console.log(str8 + num1);
+        const num2 = 5;
+        console.log(num1 + " * " + num2 + " = " +  (num1*num2));
+
+        console.log(`${num1} * ${num2} = ${num1 * num2}`);
+
+        const str9 = `2주 후면 추석이라 너무 신나요`
+
+        // typeof(): 변수나 상수의 데이터 타입을 반환
+        console.log(typeof(str9));
+    </script>
+</body>
+</html>
